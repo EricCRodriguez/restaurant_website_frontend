@@ -1,5 +1,5 @@
 <template>
-  <div class="Menu">
+  
     <div class="container">
       <h1>Menu</h1>
       <section class="page-section clearfix"></section>
