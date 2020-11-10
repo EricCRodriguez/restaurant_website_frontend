@@ -1,23 +1,24 @@
 <template>
   <div class="home">
     <body>
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5">
+              <h2 class="section-heading mb-4"></h2>
+              <h1 class="site-heading text-center text-black d-none d-lg-block">
+                <span class="site-heading-upper text-primary text-white mb-3"></span>
+                <span class="site-heading-lower">El Cocina Fresca</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section class="page-section clearfix">
         <div class="container">
           <div class="intro">
             <img class="peopleeating-img img-fluid mb-3 mb-lg-0 rounded" src="img/peopleeating.jpg" alt="" />
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">El Cocina Fresco</span>
-                <span class="section-heading-lower">Mexican Cuisine</span>
-              </h2>
-              <p class="mb-3">
-                Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you
-                try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-              </p>
-              <div class="intro-button mx-auto">
-                <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -27,15 +28,53 @@
           <div class="row">
             <div class="col-xl-9 mx-auto">
               <div class="cta-inner text-center rounded">
-                <h2 class="section-heading mb-4">
-                  <span class="section-heading-upper">Our Promise</span>
-                  <span class="section-heading-lower">To You</span>
+                <h2 class="section-heading mb-5">
+                  <span class="section-heading-upper">Come On In</span>
+                  <span class="section-heading-lower">We're Open</span>
                 </h2>
+                <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Sunday
+                    <span class="ml-auto">Closed</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Monday
+                    <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Tuesday
+                    <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Wednesday
+                    <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Thursday
+                    <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Friday
+                    <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li class="list-unstyled-item list-hours-item d-flex">
+                    Saturday
+                    <span class="ml-auto">9:00 AM to 5:00 PM</span>
+                  </li>
+                </ul>
+                <p class="address mb-5">
+                  <em>
+                    <strong>1116 Orchard Street</strong>
+                    <br />
+                    Chicago, Illinois
+                  </em>
+                </p>
                 <p class="mb-0">
-                  When you walk into our shop to start your day, we are dedicated to providing you with friendly
-                  service, a welcoming atmosphere, and above all else, excellent products made with the highest quality
-                  ingredients. If you are not satisfied, please let us know and we will do whatever we can to make
-                  things right!
+                  <small>
+                    <em>Call Anytime</em>
+                  </small>
+                  <br />
+                  (312) 555-8468
                 </p>
               </div>
             </div>

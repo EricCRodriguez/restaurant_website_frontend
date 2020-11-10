@@ -56,17 +56,19 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  margin: auto
 }
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
+  font-size: 10rem;
   font-weight: 800;
+  margin: auto
 }
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: rem;
   font-weight: 100;
 }
 
@@ -119,18 +121,18 @@ p {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    width: 70%;
     float: right;
   }
   .intro .intro-text {
-    left: 0;
-    width: 60%;
+    right: -50;
+    width: 700px;
     margin-top: 3rem;
-    position: absolute;
+    margin: auto;
   }
   .intro .intro-text .intro-button {
-    width: 100%;
-    left: 0;
+    width: 300%;
+    right: 100;
     position: absolute;
     bottom: -2rem;
   }
@@ -138,7 +140,7 @@ p {
 
 @media (min-width: 1200px) {
   .intro .intro-text {
-    width: 75%;
+    width: 500%;
   }
 }
 
