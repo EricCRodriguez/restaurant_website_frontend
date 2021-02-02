@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="about">
     <body>
       <section class="page-section clearfix">
         <div class="container">
@@ -49,12 +49,6 @@
                     Founded in 1987 by the Hernandez brothers, our establishment has been serving up award winning food
                     sourced from artisan farmers in various regions of Latin America. We are dedicated to travelling the
                     world, finding the best ingredients, and bringing back to you here.
-                  </p>
-                  <p class="mb-0">
-                    We guarantee that you will fall in
-                    <em>lust</em>
-                    with our decadent blends the moment you walk inside until you finish your last bite. Join us for
-                    your daily routine, an outing with friends, or simply just to enjoy some alone time.
                   </p>
                 </div>
               </div>
