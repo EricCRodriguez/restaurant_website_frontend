@@ -1,4 +1,4 @@
-# mexican_food_frontend
+# Latin Cusine restaurant page
 
 ## Project setup
 ```
